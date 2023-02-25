@@ -1,17 +1,14 @@
 #include "main.h"
 
 /**
- * Main: print the alphabetic
- * Return: always succes
+ * print_alphabet - Print alphabets
  */
 
-int main(void)
-
+void print_alphabet(void)
 {
 	char c;
-	
-	for (c = 'a'; c <= '2'; c++)
-	_putchar(c);
+
+	for (c = 'a'; c <= 'z'; c++)
+		_putchar(c);
 	_putchar('\n');
-	return(0);
 }
